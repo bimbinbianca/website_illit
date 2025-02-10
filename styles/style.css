@@ -1,0 +1,261 @@
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Schoolbell, sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+nav{
+    background-color: #f1f192;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ff8fab;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover{
+    color: #cc252c;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul{
+    display: flex;
+
+    gap: 2rem;
+    padding: 10px 15px 10px 15px;
+
+}
+
+h2{
+    color: #6f9b3c;
+    font-size: 40px;
+    font-family: Bungee;
+}
+
+h1{
+    font-size: large;
+}
+
+p{
+    font-size: 20px;
+}
+
+.jumbotron{
+    background-image: url('https://raw.githubusercontent.com/bimbinbianca/praktikweb/refs/heads/main/illit-header.jpg');
+    background-size: cover;
+    padding: 13rem;
+    flex-wrap: wrap;
+
+    place-items: center;
+}
+
+.jumbotron h1{
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color: #ff8fab;
+    background-color: #f1f192;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    padding: 20px;
+    margin: 15px 10px 15px 10px;
+
+}
+
+.history-content{
+    gap: 20px;
+    display: flex;
+    padding: 5rem;
+    background-color: #d8e8f2;
+    border-radius: 5px;
+}
+
+.history-content img{
+    border-radius: 10px;
+}
+
+.swiper {
+    margin: auto;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+.swiper-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #d1e8bf;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+#member {
+    overflow: auto;
+}
+
+#songs{
+    background-color: #f1f192;
+}
+
+.card-album-merch{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #7096d1;
+    border-radius: 10px;
+    padding : 10px;
+}
+
+
+.card-album{
+    gap: 20px;
+    width: 18%;
+    text-align: center;
+    padding: 20px;
+    background-color: #d1e8bf;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.custom-button {
+    display: inline-block; /* Membuat <a> seperti tombol */
+    background-color: #ff8fab; /* Warna latar belakang */
+    color: #f1f192; /* Warna teks */
+    padding: 10px 20px; /* Ruang dalam */
+    border: none; /* Hilangkan border */
+    border-radius: 5px; /* Sudut melengkung */
+    text-decoration: none; /* Hilangkan garis bawah */
+    font-size: 16px; /* Ukuran teks */
+    text-align: center; /* Pusatkan teks */
+    cursor: pointer; /* Ubah kursor menjadi pointer */
+    transition: background-color 0.3s ease; /* Animasi transisi */
+  }
+  
+.custom-button:hover {
+    background-color: #d8e8f2; /* Warna saat hover */
+    color: black;
+}
+
+.content{
+    float: left;
+    width: 75%;
+}
+
+aside{
+    float: right;
+    width: 25%;
+}
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+      width: 100%;
+    }
+
+    nav{
+        flex-wrap: wrap;
+        column-gap: 0,5rem;
+        justify-content: center;
+    }
+    nav ul{
+        justify-content: center;
+    }
+
+    .jumbotron{
+        padding: 5rem;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .history-content{
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .history-content img{
+        width: 100%;
+    }
+
+    .card-album{
+        gap: 20px;
+        width: auto;
+        text-align: center;
+        padding: 20px;
+        background-color: #d1e8bf;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .card-album-merch{
+        flex-direction: column;
+    }
+
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: darkslategray;
+    }
+}
