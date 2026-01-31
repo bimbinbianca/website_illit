@@ -3,7 +3,7 @@
 A simple fan-made website built using HTML & CSS.
 
 ## Preview
-<img src="images/hero.png" width="600"/>
+<img src="Screenshot 2025-01-09 184417.png" width="600"/>
 
 ## Features
 - Responsive layout
