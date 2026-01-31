@@ -67,7 +67,11 @@ p{
     background-image: url('https://raw.githubusercontent.com/bimbinbianca/praktikweb/refs/heads/main/illit-header.jpg');
     background-size: cover;
     padding: 13rem;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
     place-items: center;
 }
@@ -254,8 +258,3 @@ aside{
 
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-      background-color: darkslategray;
-    }
-}
