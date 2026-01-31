@@ -8,6 +8,7 @@ A simple fan-made website built using HTML, CSS, & JavaScript.
 <img src="tampilan_web/Screenshot 2025-04-02 232331.png" width="600"/>
 <img src="tampilan_web/Screenshot 2025-04-02 232342.png" width="600"/>
 <img src="tampilan_web/Screenshot 2025-04-02 232354.png" width="600"/>
+<img src="tampilan_web/Screenshot 2026-01-31 150426.png" width="600"/>
 
 ## Features
 - Responsive layout
